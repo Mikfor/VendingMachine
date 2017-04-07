@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 4 resources" deleteContents="true" description="Delete 4 resources" element1="/org.pnml.tools.epnk.tutorials.app.pntd" element2="/org.pnml.tools.epnk.tutorials.app.pntd.edit" element3="/org.pnml.tools.epnk.tutorials.app.pntd.graphics" element4="/org.pnml.tools.epnk.tutorials.app.simulator" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1491556343623"/>
+</session>

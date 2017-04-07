@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:pn="http://mbse.compute.dtu.dk/petrinet" xmi:id="_f93KQPp4Eea0q9M6nSNXPA" type="Petrinet" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_aV5_0P_1EeaQIPW1llHyjw" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_aV8cEP_1EeaQIPW1llHyjw" type="5001"/>
+    <element xmi:type="pn:Place" href="second.petrinet#//@nodes.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aV5_0f_1EeaQIPW1llHyjw" x="158" y="157"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ke2lwP_1EeaQIPW1llHyjw" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ke3M0P_1EeaQIPW1llHyjw" type="5002"/>
+    <element xmi:type="pn:Transition" href="second.petrinet#//@nodes.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ke2lwf_1EeaQIPW1llHyjw" x="210" y="84"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_f93xUPp4Eea0q9M6nSNXPA"/>
+  <element xmi:type="pn:Petrinet" href="second.petrinet#/"/>
+</notation:Diagram>

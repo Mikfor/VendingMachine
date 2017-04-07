@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pn:Petrinet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pn="http://mbse.compute.dtu.dk/petrinet">
+  <nodes xsi:type="pn:Place" name="P1" out="//@arcs.0"/>
+  <nodes xsi:type="pn:Transition" name="T1" in="//@arcs.0" out="//@arcs.1"/>
+  <nodes xsi:type="pn:Place" name="P2" in="//@arcs.1">
+    <tokens/>
+  </nodes>
+  <nodes xsi:type="pn:Transition" name="T2"/>
+  <nodes xsi:type="pn:Place" name="P3" in="//@arcs.2"/>
+  <arcs source="//@nodes.0" target="//@nodes.1"/>
+  <arcs source="//@nodes.1" target="//@nodes.2"/>
+  <arcs source="//@nodes.3" target="//@nodes.4"/>
+</pn:Petrinet>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:pn="http://mbse.compute.dtu.dk/petrinet" xmi:id="_MOuPsPqEEeaIRMTZu4cF8A" type="Petrinet" name="third.petrinet_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_YsJZsPqEEeaIRMTZu4cF8A" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_YsKAwPqEEeaIRMTZu4cF8A" type="5001"/>
+    <element xmi:type="pn:Place" href="third.petrinet#//@nodes.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YsJZsfqEEeaIRMTZu4cF8A" x="80" y="80"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Z80-cPqEEeaIRMTZu4cF8A" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Z81lgPqEEeaIRMTZu4cF8A" type="5002"/>
+    <element xmi:type="pn:Transition" href="third.petrinet#//@nodes.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z80-cfqEEeaIRMTZu4cF8A" x="242" y="98"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ak7gQPqEEeaIRMTZu4cF8A" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ak8HUPqEEeaIRMTZu4cF8A" type="5001"/>
+    <element xmi:type="pn:Place" href="third.petrinet#//@nodes.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ak7gQfqEEeaIRMTZu4cF8A" x="419" y="114"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_AEibsPqNEeaIRMTZu4cF8A" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AEjCwPqNEeaIRMTZu4cF8A" type="5002"/>
+    <element xmi:type="pn:Transition" href="third.petrinet#//@nodes.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AEibsfqNEeaIRMTZu4cF8A" x="593" y="173"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_MOuPsfqEEeaIRMTZu4cF8A"/>
+  <element xmi:type="pn:Petrinet" href="third.petrinet#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_C11i0PqGEeaIRMTZu4cF8A" type="4001" source="_YsJZsPqEEeaIRMTZu4cF8A" target="_Z80-cPqEEeaIRMTZu4cF8A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_C11i0fqGEeaIRMTZu4cF8A" fontName="Segoe UI"/>
+    <element xmi:type="pn:Arc" href="third.petrinet#//@arcs.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_C11i0vqGEeaIRMTZu4cF8A" points="[9, 0, -119, -14]$[122, 14, -6, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C150QPqGEeaIRMTZu4cF8A" id="(0.8163265306122449,0.625)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_C16bUPqGEeaIRMTZu4cF8A" id="(0.12244897959183673,0.525)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_EHSjoPqGEeaIRMTZu4cF8A" type="4001" source="_Z80-cPqEEeaIRMTZu4cF8A" target="_ak7gQPqEEeaIRMTZu4cF8A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_EHSjofqGEeaIRMTZu4cF8A" fontName="Segoe UI"/>
+    <element xmi:type="pn:Arc" href="third.petrinet#//@arcs.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EHSjovqGEeaIRMTZu4cF8A" points="[9, 0, -130, -15]$[137, 14, -2, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EHYqQPqGEeaIRMTZu4cF8A" id="(0.8163265306122449,0.45)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EHYqQfqGEeaIRMTZu4cF8A" id="(0.04081632653061224,0.425)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BAgUsPqNEeaIRMTZu4cF8A" type="4001" source="_ak7gQPqEEeaIRMTZu4cF8A" target="_AEibsPqNEeaIRMTZu4cF8A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_BAgUsfqNEeaIRMTZu4cF8A" fontName="Segoe UI"/>
+    <element xmi:type="pn:Arc" href="third.petrinet#//@arcs.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BAgUsvqNEeaIRMTZu4cF8A" points="[11, 4, 11, 4]$[11, 4, 11, 4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BAmbUPqNEeaIRMTZu4cF8A" id="(0.7755102040816326,0.625)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BAmbUfqNEeaIRMTZu4cF8A" id="(0.14285714285714285,0.625)"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:pn="http://mbse.compute.dtu.dk/petrinet" xmi:id="_D9VdwPqDEeaIRMTZu4cF8A" type="Petrinet" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_EeJr0PqDEeaIRMTZu4cF8A" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EeOkUPqDEeaIRMTZu4cF8A" type="5001"/>
+    <element xmi:type="pn:Place" href="My.petrinet#//@nodes.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EeKS4PqDEeaIRMTZu4cF8A"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_EePLYPqDEeaIRMTZu4cF8A" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EePycPqDEeaIRMTZu4cF8A" type="5002"/>
+    <element xmi:type="pn:Transition" href="My.petrinet#//@nodes.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EePLYfqDEeaIRMTZu4cF8A" y="100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_EePycfqDEeaIRMTZu4cF8A" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EePyc_qDEeaIRMTZu4cF8A" type="5001"/>
+    <element xmi:type="pn:Place" href="My.petrinet#//@nodes.2"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EePycvqDEeaIRMTZu4cF8A" y="200"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_U0MGIPqDEeaIRMTZu4cF8A" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_U0NUQPqDEeaIRMTZu4cF8A" type="5002"/>
+    <element xmi:type="pn:Transition" href="My.petrinet#//@nodes.3"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U0MGIfqDEeaIRMTZu4cF8A" x="174" y="92"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_cP1YUPqDEeaIRMTZu4cF8A" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cP2mcPqDEeaIRMTZu4cF8A" type="5001"/>
+    <element xmi:type="pn:Place" href="My.petrinet#//@nodes.4"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cP1YUfqDEeaIRMTZu4cF8A" x="444" y="90"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_D9WE0PqDEeaIRMTZu4cF8A"/>
+  <element xmi:type="pn:Petrinet" href="My.petrinet#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_Ef4KIPqDEeaIRMTZu4cF8A" type="4001" source="_EeJr0PqDEeaIRMTZu4cF8A" target="_EePLYPqDEeaIRMTZu4cF8A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ef4KIfqDEeaIRMTZu4cF8A" fontName="Segoe UI"/>
+    <element xmi:type="pn:Arc" href="My.petrinet#//@arcs.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ef4KIvqDEeaIRMTZu4cF8A" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EhwZcPqDEeaIRMTZu4cF8A" id="(0.5,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EhwZcfqDEeaIRMTZu4cF8A" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_EgnJ8PqDEeaIRMTZu4cF8A" type="4001" source="_EePLYPqDEeaIRMTZu4cF8A" target="_EePycfqDEeaIRMTZu4cF8A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_EgnJ8fqDEeaIRMTZu4cF8A" fontName="Segoe UI"/>
+    <element xmi:type="pn:Arc" href="My.petrinet#//@arcs.1"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EgnJ8vqDEeaIRMTZu4cF8A" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EhxAgPqDEeaIRMTZu4cF8A" id="(0.5,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EhxAgfqDEeaIRMTZu4cF8A" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_iCJ8QPqDEeaIRMTZu4cF8A" type="4001" source="_U0MGIPqDEeaIRMTZu4cF8A" target="_cP1YUPqDEeaIRMTZu4cF8A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_iCKjUPqDEeaIRMTZu4cF8A" fontName="Segoe UI"/>
+    <element xmi:type="pn:Arc" href="My.petrinet#//@arcs.2"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iCKjUfqDEeaIRMTZu4cF8A" points="[6, 0, -231, -13]$[236, 12, -1, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iCSfIPqDEeaIRMTZu4cF8A" id="(0.85,0.275)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iCSfIfqDEeaIRMTZu4cF8A" id="(0.025,0.45)"/>
+  </edges>
+</notation:Diagram>
